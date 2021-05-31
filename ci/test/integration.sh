@@ -33,7 +33,6 @@ cd "${BUILD_PATH}"
 
 cmake .. 
 make
-ls -l
-make test
+LD_LIBRARY_PATH=. ./mm-integration-tests 
 
 exit 0
