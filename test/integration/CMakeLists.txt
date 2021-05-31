@@ -77,7 +77,7 @@ add_executable(
 
 enable_testing()
 
-target_link_libraries(mm-integration-tests gtest gmock_main)
+target_link_libraries(mm-integration-tests gtest gmock_main ${CMAKE_DL_LIBS})
 
 add_test(
     NAME mm-integration-tests

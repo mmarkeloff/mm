@@ -28,3 +28,4 @@ add_library(mm-sample-some-mod SHARED some_mod.cpp)
 add_library(mm-sample-another-mod SHARED another_mod.cpp)
 
 add_executable(mm-sample-main main.cpp)
+target_link_libraries(mm-sample-main ${CMAKE_DL_LIBS})
