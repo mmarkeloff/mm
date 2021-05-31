@@ -3,7 +3,7 @@
  * @authors Max Markeloff (https://github.com/mmarkeloff)
  */
 
- // MIT License
+// MIT License
 //
 // Copyright (c) 2021 Max
 //
@@ -46,7 +46,6 @@ protected:
 ///
 //
 TEST_F(TestModFactory, impl) {
-    mm::ModMgr::instance().setLibNameTmpl("libxxx.dylib");
     mm::ModMgr::instance().add({0x1, "mm-test-mod"});
 
     mm::ModFactory factory{0x1};
