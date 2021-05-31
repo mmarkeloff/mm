@@ -33,6 +33,7 @@ cd "${BUILD_PATH}"
 
 cmake .. 
 make
+ls -l
 make test
 
 exit 0
