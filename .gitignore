@@ -1,0 +1,6 @@
+.vscode
+build
+test/unit/build
+test/integration/build
+sample/build
+docs
