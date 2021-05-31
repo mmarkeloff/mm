@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/mmarkeloff/mm.svg?branch=master)](https://travis-ci.com/mmarkeloff/mm)
+
 <h1 align="center">
 mm
 </h1>
