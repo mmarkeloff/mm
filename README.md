@@ -6,9 +6,9 @@ C++ module manager.
 
 Header-only library implements manager to dynamic loading a shared objects at runtime.
 
-## Supported OS's
+### Build
 
-Only Linux/macOS.
+See [BUILD.md](BUILD.md) for details.
 
 ## Usage
 
@@ -76,6 +76,14 @@ int main(int argc, char* argv[]) {
 }
 ```
 
+## Supported OS's
+
+Only Linux/macOS.
+
 ## Examples
 
 See [sample project](sample) for more complete usage examples.
+
+## Documentation
+
+See automatic generated [docs](https://mmarkeloff.github.io/mm/) for more information.
