@@ -37,4 +37,4 @@ deploy:
   local_dir: docs/html
   github_token: $GH_REPO_TOKEN
   on:
-    branch: main
+    branch: master
