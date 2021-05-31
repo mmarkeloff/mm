@@ -6,7 +6,7 @@ C++ module manager.
 
 Header-only library implements manager to dynamic loading a shared objects at runtime.
 
-### Build
+## Build
 
 See [BUILD.md](BUILD.md) for details.
 
