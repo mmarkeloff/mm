@@ -78,9 +78,9 @@ int main(int argc, char* argv[]) {
 }
 ```
 
-## Supported OS's
+## OS
 
-Only Linux/macOS.
+Linux/macOS.
 
 ## Examples
 
